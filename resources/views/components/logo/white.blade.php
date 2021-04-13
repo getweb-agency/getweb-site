@@ -1,0 +1,1 @@
+<img class='h-16 w-auto' src="{{ asset('svg/logo-getweb-white.svg')}}">
