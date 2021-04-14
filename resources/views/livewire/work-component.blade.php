@@ -24,9 +24,9 @@
 
     <div class="bg-gray-200 rounded text-center p-6">
       <div class="leading-tight text-lg font-medium mb-1">
-        Estamos actualizando nuestro portalfolio de proyectos, no tenemos proyectos publicados en este momento :(
+        Estamos actualizando nuestro portafolio de proyectos, no tenemos proyectos publicados en este momento :(
       </div> 
-      Intenta regresar despues para ver nuestro nuevo portafolio de proyectos publicado.
+      Intenta regresar después para ver nuestro nuevo portafolio de proyectos publicado.
     </div>
     @endif
 
