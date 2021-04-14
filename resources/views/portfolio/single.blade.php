@@ -20,7 +20,7 @@
     </a> 
     <div class="pt-5">
       @foreach($wimages as $wi)
-      <img class="w-full" src="{{asset('/images/'.$wi->work_image)}}" alt="Getweb">
+      <img class="w-full" src="{{asset('/images/portfolio/'.$wi->work_image)}}" alt="Getweb">
       @endforeach
     </div>
   </div>
