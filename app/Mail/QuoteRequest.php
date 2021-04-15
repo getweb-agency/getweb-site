@@ -30,6 +30,8 @@ class QuoteRequest extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.notifications.quote')->subject('Resumen de tu cotización - Getweb - ' . date('d-m-Y h:m:s'))->cc('info@getweb.com.co')->bcc('info@getweb.com.co');
+        return $this->markdown('emails.notifications.quote')
+        ->subject('Resumen de tu cotización - Getweb - ' . date('d-m-Y h:m:s'))
+        ->bcc('info@getweb.com.co');
     }
 }
