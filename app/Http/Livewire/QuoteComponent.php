@@ -76,7 +76,6 @@ class QuoteComponent extends Component
     $post = Quote::create(['name' => $this->name, 'tel' => $this->tel, 'email' => $this->email, 'quote' => implode("+", $dat) ]);
     //Mail_info
     Mail::to($this->email)
-    ->cc('info@getweb.com.co')
     ->locale('es')
     ->send(new QuoteRequest($post));
     //Show view
