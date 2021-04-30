@@ -41,7 +41,7 @@
     gtag('js', new Date());
     gtag('config', 'AW-848910098');
   </script>
-
+<!--
   {{-- Facebook Pixel Code --}}
   <script>!function(f,b,e,v,n,t,s)
   { if(f.fbq)return;n=f.fbq=function(){n.callMethod?
